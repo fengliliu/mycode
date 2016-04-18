@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>pcÕ¯“≥</title>
+    <script type="text/javascript">
+        var system = {
+            android:false,
+            apple:false,
+            pc:false
+        };
+        var u = navigator.userAgent;
+
+        if(u.indexOf('iPad')!= -1){
+            system.apple=true;
+            window.location.href = "apple.html";
+        }
+        else if(u.indexOf('iPhone')!= -1){
+            system.apple=true;
+            window.location.href = "apple.html";
+        }
+        else if(u.indexOf('Android')!= -1){
+            system.android=true;
+            window.location.href = "android.html";
+        }else{
+            system.pc=true;
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <p>’‚¿Ô «pcÕ¯“≥</p>
+</body>
+</html>
